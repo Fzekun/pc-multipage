@@ -1,0 +1,2 @@
+webpackJsonp([1,0],[function(o,n,t){t(6),document.write("<h1>Hello list</h1>")},,,,function(o,n,t){n=o.exports=t(1)(),n.push([o.id,"body{background:red}",""])},,function(o,n,t){var c=t(4);"string"==typeof c&&(c=[[o.id,c,""]]);t(2)(c,{});c.locals&&(o.exports=c.locals)}]);
+//# sourceMappingURL=list.1f50b2b6b054abe1932a.js.map

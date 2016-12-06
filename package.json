@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot --inline"
+    "dev": "node app.js",
+    "build": "node config/build"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "css-loader": "^0.26.0",
+    "eventsource-polyfill": "^0.9.6",
     "exports-loader": "^0.6.3",
     "express": "^4.14.0",
     "extract-text-webpack-plugin": "^1.0.1",
@@ -17,9 +19,13 @@
     "glob": "^7.1.1",
     "html-loader": "^0.4.4",
     "html-webpack-plugin": "^2.24.1",
+    "ora": "^0.3.0",
+    "rimraf": "^2.5.4",
+    "shelljs": "^0.7.5",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.3",
+    "webpack-dev-middleware": "^1.8.4",
     "webpack-hot-middleware": "^2.13.2",
     "webpack-merge": "^1.0.1"
   },
